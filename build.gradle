@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.catapult.sa'
+version '0.1-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'org.catapult.sa:tribble-core_2.12:0.8-SNAPSHOT'
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.9.9'
+
+    testCompile 'junit:junit:4.12'
+}
+
+application {
+    mainClassName = 'org.catapult.sa.tribble.App'
+}

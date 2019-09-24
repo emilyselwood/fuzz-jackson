@@ -1,0 +1,13 @@
+FROM openjdk:11
+
+ADD . /app/
+WORKDIR /app/
+
+RUN apt-get update && \
+apt-get install -y maven &&\
+git clone https://github.com/SatelliteApplicationsCatapult/tribble.git && \
+cd tribble && \
+./gradlew install && \
+cd /app/
+
+CMD "./gradlew" "run" "--args=--targetClass org.catapult.sa.fuzz.jackson.FuzzJackson"
