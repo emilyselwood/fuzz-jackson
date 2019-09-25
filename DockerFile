@@ -8,6 +8,7 @@ apt-get install -y maven &&\
 git clone https://github.com/SatelliteApplicationsCatapult/tribble.git && \
 cd tribble && \
 ./gradlew install && \
-cd /app/
+cd /app/ && \
+./gradlew build
 
-CMD "./gradlew" "run" "--args=--targetClass org.catapult.sa.fuzz.jackson.FuzzJackson"
+CMD "./gradlew" "run" "--args=--targetClass org.catapult.sa.fuzz.jackson.FuzzJackson -verbose"
