@@ -1,0 +1,37 @@
+[
+    {
+        "aoiCoveragePercent": 0.0,
+        "area": 0.0,
+        "coordinatesWKT": "POLYGON((-75.509438 3.69213,-77.756767 4.162177,-77.446289 5.669477,-75.193192 5.203722,-75.509438 3.69213))",
+        "instrumentName": "IW",
+        "latency": "Standard",
+        "modeName": "IWS",
+        "orbit": 16443,
+        "orbitDirection": "DESCENDING",
+        "polarisation": "VV/VH",
+        "productId": "6680144133915b0ad4b15b28f01c7fbe",
+        "productType": "GRD",
+        "ql": "https://geobrowser.satapps.org/archiveql/aewebpub/getaeql.php?aeimgid=6680144133915b0ad4b15b28f01c7fbe&aeimgtype=ql&epsg=3857&",
+        "satelliteName": "Sentinel-1B",
+        "sensorResolution": 20.0,
+        "sensorType": "SAR",
+        "start": "2019-05-28T10:50:30Z",
+        "stop": "2019-05-28T10:50:55Z",
+        "supplierId": "S1B_IW_GRDH_1SDV_20190528T105030_20190528T105055_016443_01EF3E_5E4F",
+        "thumbnail": "https://sedasdm.satapps.org/qls/qlmgr.php?sceneid=S1B/GRDH/IW/2019/05/28/S1B_IW_GRDH_1SDV_20190528T105030_20190528T105055_016443_01EF3E_5E4F/6680144133915b0ad4b15b28f01c7fbe/geo-quick-look-thumb.png",
+        "type": "ARCHIVE",
+        "usefulAreaPercent": 0.0,
+        "vendorSpecific": {
+            "Filehash": "29a0eb4ae9c47644552189ca7112c9fa",
+            "FilesizeBytes": "1091341459",
+            "Identifier": "S1B_IW_GRDH_1SDV_20190528T105030_20190528T105055_016443_01EF3E_5E4F",
+            "Mission datatake id": "126782",
+            "Orbit number (Start)": "16443",
+            "Orbit number (Stop)": "16443",
+            "Product Description": "SAR Standard L1 Product",
+            "Start relative orbit number": "142",
+            "Stop relative orbit number": "142",
+            "property": "vendorSpecific"
+        }
+    }
+]
